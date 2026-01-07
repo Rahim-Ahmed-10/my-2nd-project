@@ -42,6 +42,7 @@
     margin-bottom: 30px;
     line-height: 30px;
     color: #757575;
+    padding: 20px;
 }
 /* main style */
 header{
@@ -60,6 +61,7 @@ nav{
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
+    
 }
 nav .menu{
     display: flex;
@@ -92,7 +94,7 @@ nav .menu a{
     font-size: 45px;
     font-weight: bold;
     color: #181818; 
-    display: flex; 
+    /* display: flex;  */
     margin-bottom: 20px;
 }
 #bannar .bannar-content p{
@@ -102,12 +104,13 @@ nav .menu a{
     margin-bottom: 30px;
 }
 
-#bannar ,bannar-image img{
+#bannar .bannar-image img{ */
     max-width: 585px;
-    vertical-align:middle
+    vertical-align:middle;
+    /* jastify-content:space-between; */
 }
 
-}
+
 
 #about .about-container{
     width: 71%;
